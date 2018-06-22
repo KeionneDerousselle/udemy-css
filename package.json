@@ -1,0 +1,23 @@
+{
+  "name": "udemy-css",
+  "version": "1.0.0",
+  "description": "\"# udemy-css\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "start:natours": "./node_modules/.bin/lite-server -c lite-server-configs/natours.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeionneDerousselle/udemy-css.git"
+  },
+  "author": "Keionne Derousselle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeionneDerousselle/udemy-css/issues"
+  },
+  "homepage": "https://github.com/KeionneDerousselle/udemy-css#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
