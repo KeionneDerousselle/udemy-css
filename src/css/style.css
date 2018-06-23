@@ -125,10 +125,16 @@ body {
 
 .btn:hover {
   transform: translateY(-5px);
+  /* the first number is how big you want the shadow in the x direction*/
+  /* the second number is how big you want the shadown in the y direction*/
+  /* the third number indicates how big the blur is*/
+  /* the fourth value is what color you want the shadow to be*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .btn:active {
   transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
 .btn-white {
