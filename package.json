@@ -4,7 +4,7 @@
   "description": "\"# udemy-css\"",
   "main": "index.js",
   "scripts": {
-    "start": "",
+    "start": "npm run start:natours",
     "start:natours": "./node_modules/.bin/lite-server -c lite-server-configs/natours.config.json"
   },
   "repository": {
