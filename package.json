@@ -4,9 +4,9 @@
   "description": "\"# udemy-css\"",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start:natours",
+    "start": "./node_modules/.bin/run-s compile:sass start:natours",
     "start:natours": "./node_modules/.bin/lite-server -c lite-server-configs/natours.config.json",
-    "compile:sass":"./node_modules/.bin/node-sass ./src/sass/main.scss ./src/css/style.css"
+    "compile:sass": "./node_modules/.bin/node-sass ./src/sass/main.scss ./src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/KeionneDerousselle/udemy-css#readme",
   "devDependencies": {
     "lite-server": "^2.3.0",
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3"
   }
 }
