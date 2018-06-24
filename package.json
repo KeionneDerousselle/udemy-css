@@ -4,9 +4,10 @@
   "description": "\"# udemy-css\"",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/run-s compile:sass start:natours",
+    "start": "./node_modules/.bin/run-p compile:sass:watch start:natours",
     "start:natours": "./node_modules/.bin/lite-server -c lite-server-configs/natours.config.json",
-    "compile:sass": "./node_modules/.bin/node-sass ./src/sass/main.scss ./src/css/style.css"
+    "compile:sass": "./node_modules/.bin/node-sass ./src/sass/main.scss ./src/css/style.css",
+    "compile:sass:watch": "./node_modules/.bin/node-sass ./src/sass/main.scss ./src/css/style.css -w"
   },
   "repository": {
     "type": "git",
