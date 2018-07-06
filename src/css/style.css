@@ -1,3 +1,23 @@
+/*
+      0 - 600px: Phone
+    600 - 900px: Tablet portrait
+    900- 1200px: Table landscape
+  1200 - 1800px: Desktop 
+      1800px + : Big Desktop
+*/
+/*
+$breakpoint: 
+- phone
+- tab-port
+- tab-land
+- desk
+- big-desktop
+
+em and rem don't work the same in media queries.
+they are always based on the user's brower's font size
+em is the best to use in media queries
+1em = 16px;
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -36,6 +56,15 @@
 html {
   font-size: 62.5%;
   /* 62.5% of the font size size set by the user or browser*/ }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 40%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%; } }
 
 body {
   box-sizing: border-box; }
