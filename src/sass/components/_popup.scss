@@ -65,7 +65,7 @@
     width: 33.333333333%;
     display: table-cell;
 
-    @media (max-width: 88.75em) {
+    @media only screen and (max-width: 88.75em) {
       display: block;
       width: 100%;
       @include clearfix;
@@ -83,7 +83,7 @@
     padding: 3rem 5rem;
     text-align: center;
 
-    @media (max-width: 88.75em) {
+    @media only screen and (max-width: 88.75em) {
       display: block;
       width: 100%;
     }
@@ -93,7 +93,7 @@
     display: block;
     width: 100%;
 
-    @media (max-width: 88.75em) {
+    @media only screen and (max-width: 88.75em) {
       width: 50%;
       float: left;
     }
